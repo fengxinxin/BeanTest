@@ -27,6 +27,6 @@ public class TestController{
         logger.info(Configures.map.get("spring.redis.host"));
         logger.info(Configures.map.get("spring.redis.port"));
 
-        return "value "+ value;
+        return "value : "+ value;
     }
 }
